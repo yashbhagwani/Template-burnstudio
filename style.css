@@ -1,0 +1,260 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+}
+body{
+    margin: 0;
+}
+#clrred{
+    color: red;
+}
+header{
+    text-align: center;
+    padding: 2% 0% 5% 0%;
+    /* margin: 0% 15% 0% 15%; */
+    margin: auto;
+    width: 70%;
+}
+header .logo{
+    float: left;
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+}
+header nav{
+    float: right;
+    display: inline;
+    font-weight: bold;
+    
+}
+header .nav-list{
+    list-style: none;
+    display: inline;
+    vertical-align: sub;
+}
+header .nav-list li{
+    display: inline;
+}
+.main{
+    text-align: center;
+}
+.main .intro-area{
+    text-align: center;
+    width: 70%;
+    padding: 5% 0% 5% 0%;
+    /* margin: 0% 15% 0% 15%; */
+    margin: auto;
+    /* float: left; */
+}
+.main .intro-area button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 6px;
+    border: none;
+}
+.main .project-area {
+    text-align: left;
+    padding: 5% 0% 10% 0%;
+    margin: 0% 15% 0% 15%;
+    /* float: left; */
+    clear: both;
+}
+
+.main .project-area .project-group{
+    text-align: center;
+}
+
+.main .project-area .project{
+    display: inline;
+    float: left;
+    width: 30%;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    
+    margin-bottom: 8%;
+}
+.main .project-area .project img{
+    width: 100%;
+    height: 200px;
+}
+.main .project-area .project .project-content{
+    display: block;
+    clear: both;
+    text-align: center;
+}
+.main .project-area .project .project-content h3,p{
+    display: block;
+    clear: both;
+}
+.main .project-area .project .project-content p{
+    font-style: italic;
+    color: rgb(134, 134, 134);
+}
+.social-section-mar{
+    float: left;
+    clear: both;
+    background-color: lightgray;
+}
+.social-section{
+    float: left;
+    clear: both;
+    padding: 5% 0% 5% 0%;
+    margin: 0% 15% 0% 15%;
+    background-color: lightgray;
+}
+.social-section .aboutme-sec{
+    float: left;
+    width: 50%;
+    text-align: justify;
+    padding-right: 5%;
+}
+.social-section .aboutme-sec i{
+    font-size: 20px;
+    border: 4px solid black;
+    border-radius: 50px;
+    padding: 15px;
+}
+.social-section .aboutme-sec p{
+    color: rgb(73, 73, 73);
+    line-height: 1.5;
+}
+.social-section .whatsnew-sec{
+    float: right;
+    width: 45%;
+    text-align: left;
+}
+.social-section .whatsnew-sec .article{
+    float: left;
+    padding-bottom: 8%;
+}
+.social-section .whatsnew-sec .article img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.social-section .whatsnew-sec .article .article-content{
+    display: inline;
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 0%;
+}
+.social-section .whatsnew-sec .article .article-content h3{
+    margin-top: 0%;
+}
+.social-section .whatsnew-sec .article .article-content h3,p{
+    display: block;
+}
+.social-section .whatsnew-sec .article .article-content p{
+    color: rgb(134, 134, 134);
+}
+footer{
+    text-align: center;
+    clear: both;
+    padding: 2% 0% 15% 0%;
+    margin: 0% 15% 0% 15%;
+    font-weight: bold;
+}
+footer p{
+    float: left;
+}
+footer ul{
+    list-style: none;
+    float: right;
+    display: inline;
+}
+footer ul li{
+    display: inline;
+}
+@media(max-width:768px){
+    header .logo{
+        float: none;
+        display: block;
+        font-size: 40px;
+        clear: right;
+    }
+    header nav{
+        float: none;
+        display: block;
+        clear: left;
+    }
+    header nav .nav-list{
+        padding-left: 0;
+        vertical-align: sub;
+    }
+
+    .main .project-area {
+        text-align: center;
+        clear: both;
+    }
+    .main .project-area .project-group{
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+    .main .project-area .project{
+        display: inline-block;
+        width: 100%;
+        float: none;
+        padding: 0%;
+    }
+    .main .project-area .project img{
+        width: 100%;
+        height: 200px;
+    }
+    
+
+    .social-section .aboutme-sec{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .social-section .whatsnew-sec{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-section .whatsnew-sec .article{
+        text-align: center;
+        float: none;
+        /* margin-left: 20%; */
+    }
+    .social-section .whatsnew-sec .article .imgc{
+        text-align: center;
+        padding: 0%;
+    }
+    .social-section .whatsnew-sec .article img{
+        float: none;
+        display: inline-block;
+        text-align: center;
+        /* margin: 5% 3%; */
+        margin-right: 0%;
+        width: 150px;
+        height: 150px;
+    }
+    .social-section .whatsnew-sec .article .article-content{
+        display: block;
+        float: none;
+        width: 100%;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    footer p{
+        float: none;
+    }
+    footer ul{
+        float: none;
+        display: block;
+        padding-left: 0%;
+    }
+    footer ul li{
+        display: inline;
+    }
+}
